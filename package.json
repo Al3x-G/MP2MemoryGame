@@ -1,0 +1,22 @@
+{
+  "name": "mp2memorygame",
+  "version": "1.0.0",
+  "description": "![Mockup](add mock up image here)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Al3x-G/MP2MemoryGame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Al3x-G/MP2MemoryGame/issues"
+  },
+  "homepage": "https://github.com/Al3x-G/MP2MemoryGame#readme",
+  "devDependencies": {
+    "jest": "26.6"
+  }
+}
