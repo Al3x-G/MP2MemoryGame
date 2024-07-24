@@ -113,7 +113,7 @@ ___
 ___
 # Testing
 
-### Testing section is located in [TEST.md]() file.
+### Testing is achieved by manually via Jest (JavaScript Testing Framework) which was initialised via node package manager.
 
 [Back to Table of contents](#table-of-contents)
 ___
