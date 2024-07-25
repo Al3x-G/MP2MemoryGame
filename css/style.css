@@ -1,15 +1,12 @@
 body {
     font-family: Kanit, sans-serif;
+    background-color: black;
 }
 
 h1 {
+    color: white;
     font-weight: 500;
     margin-bottom: 10px;
-}
-
-h2 {
-    font-weight: 300;
-    margin-top: 10px;
 }
 
 .container {
@@ -86,8 +83,8 @@ h2 {
 }
 
 .button {
-    background-color: black;
-    color: whitesmoke;
+    background-color: grey;
+    color: black;
     border: 0;
     height: 40px;
     width: 160px;
@@ -101,7 +98,7 @@ h2 {
 }
 
 .button:hover {
-    background-color: grey;
+    background-color: whitesmoke;
 }
 
 .light {
