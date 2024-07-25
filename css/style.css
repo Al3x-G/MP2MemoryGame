@@ -1,0 +1,109 @@
+body {
+    font-family: Kanit, sans-serif;
+}
+
+h1 {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.container {
+    position: relative;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.circle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Align circles in a row */
+.circle-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.circle {
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+/* Default size for circles */
+.circle1 {
+    height: 150px;
+    width: 150px;
+    background-color: green;
+}
+
+.circle2 {
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+}
+
+.circle3 {
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+}
+
+.circle4 {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+}
+
+/* Add hover effect to circles */
+.circle:hover {
+    transform: scale(1.1);
+}
+
+.scorebox {
+    border-radius: 25%;
+    box-sizing: border-box;
+    background-color: #E6ECF0;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    color: #445261;
+    font-size: 3em;
+    padding-top: 10px;
+    margin: 20px auto 0;
+}
+
+.button {
+    background-color: black;
+    color: whitesmoke;
+    border: 0;
+    height: 40px;
+    width: 160px;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+    position: relative;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: grey;
+}
+
+.light {
+    opacity: 0.4;
+}
