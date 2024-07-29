@@ -10,6 +10,13 @@ function newGame() {
     game.currentGame = [];
     game.playerMoves = [];
     showScore();
+    addTurn ();
+}
+
+function addTurn() {
+    game.playerMoves = [];
+    game.currentGame.push(game.choices[(Math.floor(Math.random() * 4))]);
+    //showTurns ();
 }
 
 function showScore() {
@@ -17,4 +24,4 @@ function showScore() {
 }
 
 /*below contains all function to be exported into the memory.test.js file */
-module.exports = { game, newGame, showScore };
+module.exports = { game, newGame, showScore, addTurn };

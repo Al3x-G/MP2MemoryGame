@@ -4,7 +4,7 @@
 
 
 /*below contains all function imported from memory.js file */
-const { game, newGame, showScore } = require("../memory");
+const { game, newGame, showScore, addTurn } = require("../memory");
 
 /*beforeAll function is applied to put HTML file into the DOM before any tests run */
 
@@ -48,8 +48,8 @@ describe("newGame works correctly", () => {
     test("should set game score to zero", () => {
         expect(game.score).toEqual(0);
     });
-    test("should clear the computer sequence array", () => {
-        expect(game.currentGame.length).toEqual(0);
+    test("should be one move in the computer's game array", () => {
+        expect(game.currentGame.length).toBe(1);
     });
     test("should clear the player moves array", () => {
         expect(game.playerMoves.length).toEqual(0);
