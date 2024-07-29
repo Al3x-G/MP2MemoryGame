@@ -5,5 +5,16 @@ let game = {
     choices: ["button1", "button2", "button3", "button4"],
 };
 
+function newGame() {
+    game.score = 0;
+    game.currentGame = [];
+    game.playerMoves = [];
+    showScore();
+}
 
-module.exports = { game };
+function showScore() {
+    document.getElementById("score").innerText = game.score;
+}
+
+/*below contains all function to be exported into the memory.test.js file */
+module.exports = { game, newGame, showScore };
