@@ -4,7 +4,7 @@
 
 
 /*below contains all function imported from memory.js file */
-const { game, newGame, showScore, addTurn } = require("../memory");
+const { game, newGame, showScore, addTurn, lightsOn } = require("../memory");
 
 /*beforeAll function is applied to put HTML file into the DOM before any tests run */
 
@@ -75,5 +75,10 @@ describe("gameplay works correctly", () => {
     test("addTurn adds a new turn to the game", () => {
         addTurn();
         expect(game.currentGame.length).toBe(2);
+    });
+    test("should add correct class to light up the buttons", () => {
+        let button = document.getElementById(game.currentGame[0]);
+        lightsOn(game.currentGame[0]);
+        expect(button.classList).toContain("light");
     });
 });
