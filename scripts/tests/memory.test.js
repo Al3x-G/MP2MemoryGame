@@ -4,7 +4,11 @@
 
 
 /*below contains all function imported from memory.js file */
-const { game, newGame, showScore, addTurn, lightsOn, showTurns } = require("../memory");
+const { game, newGame, showScore, addTurn, lightsOn, showTurns, playerTurn } = require("../memory");
+
+/*Jest spyon is used to make an alert when the player makes a mistake */
+
+jest.spyOn(window, "alert").mockImplementation(() => { });
 
 /*beforeAll function is applied to put HTML file into the DOM before any tests run */
 
@@ -94,5 +98,15 @@ describe("gameplay works correctly", () => {
         game.turnNumber = 23;
         showTurns();
         expect(game.turnNumber).toBe(0);
+    });
+    test("should increment score if the turn is correct", () => {
+        game.playerMoves.push(game.currentGame[0]);
+        playerTurn();
+        expect(game.score).toBe(1);
+    });
+    test("should call an alert if the move is wrong", () => {
+        game.playerMoves.push("wrong");
+        playerTurn();
+        expect(window.alert).toBeCalledWith("Nope, not that one, Try again!")
     });
 });
