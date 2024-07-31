@@ -2,7 +2,7 @@ body {
     font-family: Kanit, sans-serif;
     background-color: black;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     min-height: 100vh; /* Make sure the content is centered vertically */
     margin: 0; /* Remove default margin */
@@ -13,6 +13,7 @@ h1 {
     font-weight: 500;
     margin-bottom: 10px;
     text-align: center;
+    width: 100%;
 }
 
 .container {
