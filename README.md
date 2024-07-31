@@ -97,35 +97,52 @@ This site comprises one page, with a centred game screen. The game itself ...
 ## Supported Screens and Browsers
 + This website works in any browser and at any screen size.
 + It has been developed and tested in Chrome, and smaller screen sizes have been simulated with Chrome's Inspect tool. Sample screens of all currently-available smart phones have been tested through Chrome's Inspect tool.
+## Deployment and Local Development
 
-## Deployment
-This website has been deployed on Github Pages. It was developed locally, using a clone of the repository on Github, available at Github.
+### Deployment
 
-To view the deployment on Github Pages:
+The site is deployed using GitHub Pages - [Al3x-G/Gm-RockClimbing](https://github.com/Al3x-G/GM-RockClimbing).
 
-+ Navigate to 
+To Deploy the site using GitHub Pages:
 
-To clone the repository from Github in your editor of choice:
+1. Login (or signup) to Github.
+2. Go to the repository for this project, [Al3x-G/MP2MemoryGame](https://github.com/Al3x-G/MP2MemoryGame).
+3. Click the settings button.
+4. Select pages in the left-hand navigation menu.
+5. From the source dropdown select main branch and press save.
+6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
 
-+ First, open your terminal.
-+ Change the current working directory to the location where you want the cloned directory.
-+ Input: ```bash
-+ Input: cd path/to/your/directory (ensure you change the directory to whatever you want to clone the repository)
-+ Clone the repository by running: git clone https://https://github.com/Al3x-G/MP2MemoryGame.git
-+ Change directories into the cloned repository: cd mp2memorygame
+### Local Development
 
-Now you have a copy of the source code and can start to work on it.
+#### How to Fork
+
+To fork the repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, [Al3x-G/MP2MemoryGame](https://github.com/Al3x-G/MP2MemoryGame).
+3. Click the Fork button in the top right corner.
+
+#### How to Clone
+
+To clone the repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, [Al3x-G/MP2MemoryGame](https://github.com/Al3x-G/MP2MemoryGame).
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
 
 The Visual Studio Code preview extension was used to preview the website. To open this repository on Visual Studio Code:
 
 + Open an integrated terminal from the menu Terminal -> New Terminal
-+ Clone the repo with the following command: git clone https://https://github.com/Al3x-G/MP2MemoryGame
++ Clone the repo with the following command: git clone https://github.com/Al3x-G/MP2MemoryGame
 + Change your terminal into that new subdirectory: cd mp2memorygame
 + Open in Visual Studio Code: code .
 
 ## Credits
 ### Text Content
-Text is written by Alex Gordon
+Text is written by the Al3x-G https://github.com/Al3x-G
 
 ### Media
 #### Readme Images
