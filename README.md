@@ -1,154 +1,134 @@
-# Milestone Project 2 Memory Game
-## Interactive Front-End Development Milestone Project.
+# Memory Game 
 
-![Mockup](add mock up image here)
+## A JavaScript Game
 
-*** Add description here of what it is***
+This is a website designed to deliver a JavaScript game to the user. 
 
-This project is for entertainment purposes only. 
-It is built using HTML, CSS and Javascript programming languages.
-For functionality I used external frameworks and APIs.
+This game is accessible to all, and has two aims in mind: to be fun to play the first time, and to encourage replayability.
 
-## [View live website in github pages](***add link here once deployed***)
----
-# Table of contents
+ There is a high score function that stores the longest run score, enabling replayability. The site is targeted primarily at anyone who wishes to play the game, and exists solely for this game. 
+ 
+The game will be designed to work on all screens, and should be responsive as the page is resized. 
 
-- [UX](#ux)
-    - [Strategy](#strategy)
-    - [Scope](#scope)
-        - [User stories](#user-stories)
-    - [Structure of the website](#structure-of-the-website)
-    - [Skeleton](#skeleton)
-    - [Surface](#surface)
-- [Features](#features)
-- [Technology](#technology)
-- [Testing](#testing)
-- [Deployment](#deployment)
-- [Credits](#credits)
-- [Screenshots](#screenshots)
-
-# UX
-
-## Strategy
-
-## Scope
-
-### User stories
-
-As a first time user:
-
-As a returning user:
+The site is designed to work on three different screen sizes, including Desktop, Tablet and Phone sizes.
 
 
-## Structure of the application
-
-## Skeleton
-
-### Wireframes
-
-## Surface
-
-### Colours
-
-Colours used in a project:
-Purpose | Colour value
------------- | -------------
-background | # 262626
-font | # fafafa
-
-add any colors used
-
-### Fonts
-
-* As a main font I used ****, and as a backup font serif.
-
-### Images
-
-[Back to Table of contents](#table-of-contents)
-___
-# Features
-
----
-## Footer
-
----
-## Main page
+## Game Concept
+With inspiration drawn from the very succesful game Simon. Which is an electronic game of short-term memory skill invented by Ralph H. Baer and Howard J. Morrison, working for toy design firm Marvin Glass and Associates, with software programming by Lenny Cope. First brought to market in 1978, The device created a series of tones and lights and required a user to repeat the sequence. If the user succeeds, the series becomes progressively longer and more complex. Once the user fails or the time limit runs out, the game is over.
 
 
-## Possible future implementations:
+The site is designed to work on three different screen sizes, including Desktop, Tablet and Phone sizes.
 
-___
-[Back to Table of contents](#table-of-contents)
-___
-# Technologies used
+A note about copyright: This game is intended as a parody of Simon, which is © Hasbro, and is in no way designed to infringe on the copyright of Simon. This game is not made for the purposes of making money, and all rights to the game Simon and to the mechanics that are represented under the copyright remain the property of the copyright owner.
 
-### HTML5
-* As a structure language.
+## User Story
+As a player:
++ An enjoyable gameplay loop
++ Strong visuals that help focus the user on gameplay
++ Clear feedback on whether I have performed a game action
++ Bug-free gameplay
++ Some ability to measure my performance
++ Replayability options and value
 
-### CSS
-* As a style language.
+## Features and Wireframe
+This site comprises one page, with a centred game screen. The game itself ...
 
-### Javascript
-* As a programming language.
+### Title Page
+![Title Game State](readme_docs/prototype/title.png "Title Game State")
 
-### jQuery 
-* jQuery@3.5.1 as a JavaScript library
+### Default Game State
+![Default Game State]()
 
-### Google fonts
-* As a font resource.
+### During Game Play
 
-### GitHub
-* As a software hosting platform to keep project in a remote location.
+![During Gamplay]()
 
-### Git
-* As a version-control system tracking.
+### Game Over message
+![Game Over Game State]()
 
-### Gitpod
-* As a development hosting platform.
+## Technology
++ This website was made in its entirety using Visual Code Studio
++ Wireframe and prototyping images were made in Figma
++ Additional software used to create this website include Chrome for previewing, inspecting and bug testing
 
-### Wireframe.cc
-* As a wireframing tool.
+## Testing
+### Test Case: TDD Developement
++ !["Test Examples]()
 
-[Back to Table of contents](#table-of-contents)
-___
-# Testing
+### Test Case: Developer tools
++ Click outside game space; should have no effect on game.
 
-### Testing is achieved by manually via Jest (JavaScript Testing Framework) which was initialised via node package manager.
++ The game space should have 4 equal sized circles that the user can click and is obvious when clicked.
 
-[Back to Table of contents](#table-of-contents)
-___
-# Deployment
++ The game space should also have a new game button.
 
-The project was deployed on GitHub Pages. I used Gitpod as a development environment where I commited all changes to git version control system.
-I used push command in Gitpod to save changes into GitHub.
++ When the game is active: hovering over any of the four circles at any time should make the circle grow slightly.
 
-To deploy a project I had to:
++ When the game is active: The highscore box should add up for every correct sequence.
 
-* Log in to GitHub and click on repository to deploy ([MP2](Add github code link here))
-* select `Settings` and find GitHub Pages section at the very bottom of the page
-* from source select `none` and then `Milestone-Projects` branch.
-* click `save` and page was deployed after auto-refresh.
->  Your site is published at (Add github code link here)
++ When the game is active: the circle should light up clearly to the user.
 
-To run localy:
-* Log in to GitHub and click on repository to download ([MP2](***add link here***))
-* select `Code` and click Download the ZIP file.
-* after download you can extract the file and use it in your local environment 
++ When the game is active: there should be enough time between each light up of the circles. 
 
-Alternatively you can [Clone](***add link here***)
-or [Fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
-this repository ([MP2](***add link here***)) into your github account.
++ When the game is active: If the incorrect button is pressed then the alert box should show displaying a message such as "Try again!" and a new game starts.
 
-[Back to Table of contents](#table-of-contents)
-___
-# Credits
++ When the game is active: 
 
-### Code:
+### Bugs discovered
++ Properly aligning the circle buttons was very important as this was the main interaction with the user. Ultimately I solved this with putting two circles on a row each instead of trying to align them in one section.
 
-### Images:
+## Code validation
+### <a href="https://validator.w3.org/" target="_blank">W3C</a>
 
-### Content:
++ <a href=>Game page validation</a>
 
-# Screenshots
+![W3C Validation]()
 
-## Project screenshots
+![Jigsaw Validation]()
+
+### Lighthouse Report:
+
+![Jigsaw Validation]() 
+
+### <a href="https://jshint.com/" target="_blank">JSHint</a>
+
+![JSHint Validation]() 
+
+## Supported Screens and Browsers
++ This website works in any browser and at any screen size.
++ It has been developed and tested in Chrome, and smaller screen sizes have been simulated with Chrome's Inspect tool. Sample screens of all currently-available smart phones have been tested through Chrome's Inspect tool.
+
+## Deployment
+This website has been deployed on Github Pages. It was developed locally, using a clone of the repository on Github, available at Github.
+
+To view the deployment on Github Pages:
+
++ Navigate to 
+
+To clone the repository from Github in your editor of choice:
+
++ First, open your terminal.
++ Change the current working directory to the location where you want the cloned directory.
++ Input: ```bash
++ Input: cd path/to/your/directory (ensure you change the directory to whatever you want to clone the repository)
++ Clone the repository by running: git clone https://https://github.com/Al3x-G/MP2MemoryGame.git
++ Change directories into the cloned repository: cd mp2memorygame
+
+Now you have a copy of the source code and can start to work on it.
+
+The Visual Studio Code preview extension was used to preview the website. To open this repository on Visual Studio Code:
+
++ Open an integrated terminal from the menu Terminal -> New Terminal
++ Clone the repo with the following command: git clone https://https://github.com/Al3x-G/MP2MemoryGame
++ Change your terminal into that new subdirectory: cd mp2memorygame
++ Open in Visual Studio Code: code .
+
+## Credits
+### Text Content
+Text is written by Alex Gordon
+
+### Media
+#### Readme Images
+
+
+#### Game Images
