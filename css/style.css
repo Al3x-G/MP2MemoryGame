@@ -138,3 +138,9 @@ h1 {
     }
 }
 
+/* Disable hover effect on touch devices */
+@media (hover: none) and (pointer: coarse) {
+    .circle:hover {
+        opacity: 1; /* Keep original opacity */
+    }
+}

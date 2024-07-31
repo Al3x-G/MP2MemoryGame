@@ -79,7 +79,7 @@ This site comprises one page, with a centred game screen. The game itself ...
 
 + Had to change the alignment fro smaller screens . . . upon doing this led to alignment issues but fixed with flex direction: coloum in the body CSS
 
-+ had to change the hover function as it didnt look right on touch screens . . . 
++ had to change the hover function as it didnt look right on touch screens . . . did this by disabling hover effect on touch devices using media querie in css
 
 ## Code validation
 ### <a href="https://validator.w3.org/" target="_blank">W3C</a>
