@@ -77,6 +77,9 @@ This site comprises one page, with a centred game screen. The game itself ...
 ### Bugs discovered
 + Properly aligning the circle buttons was very important as this was the main interaction with the user. Ultimately I solved this with putting two circles on a row each instead of trying to align them in one section.
 
++ Had to change the alignment fro smaller screens . . .
+
++ had to change the hover function as it didnt look right on touch screens . . . 
 ## Code validation
 ### <a href="https://validator.w3.org/" target="_blank">W3C</a>
 
