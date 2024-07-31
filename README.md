@@ -101,7 +101,7 @@ This site comprises one page, with a centred game screen. The game itself ...
 
 ### Deployment
 
-The site is deployed using GitHub Pages - [Al3x-G/Gm-RockClimbing](https://github.com/Al3x-G/GM-RockClimbing).
+The site is deployed using GitHub Pages - [Al3x-G/MP2MemoryGame](https://github.com/Al3x-G/MP2MemoryGame).
 
 To Deploy the site using GitHub Pages:
 
