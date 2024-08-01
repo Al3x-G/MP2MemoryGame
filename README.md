@@ -134,8 +134,7 @@ The Visual Studio Code preview extension was used to preview the website. To ope
 ### Text Content
 Text is written by the Al3x-G https://github.com/Al3x-G
 
-### Media
-#### Readme Images
+### Code
 
+All code was written by Alex Gordon working alongside Code Institute for support and guidance.
 
-#### Game Images
