@@ -31,17 +31,9 @@ As a player:
 This site comprises one page, with a centred game screen. A simple approach is usually best, I opted for a dark background and for the interactive elements to be bright and noticeable.
 
 ### Title Page
-![Title Game State](readme_docs/prototype/title.png "Title Game State")
+![Front page](assets/wireframes/front_page_wireframe.png)
 
-### Default Game State
-![Default Game State]()
-
-### During Game Play
-
-![During Gamplay]()
-
-### Game Over message
-![Game Over Game State]()
+It was during this stage that I opted for a dark background, The wireframe shows, that a white background is not the best for depicting colours and is too bright for the user.
 
 ## Technology
 + This website was made in its entirety using Visual Code Studio
@@ -95,9 +87,6 @@ This site comprises one page, with a centred game screen. A simple approach is u
 
 ![JSHint Validation]() 
 
-## Supported Screens and Browsers
-+ This website works in any browser and at any screen size.
-+ It has been developed and tested in Chrome, and smaller screen sizes have been simulated with Chrome's Inspect tool. Sample screens of all currently-available smart phones have been tested through Chrome's Inspect tool.
 ## Deployment and Local Development
 
 ### Deployment
