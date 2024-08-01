@@ -8,7 +8,7 @@ body {
     margin: 0; /* Remove default margin */
 }
 
-h1 {
+h1 h2 {
     color: white;
     font-weight: 500;
     margin-bottom: 10px;

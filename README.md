@@ -10,14 +10,11 @@ This game is accessible to all, and has two aims in mind: to be fun to play the 
  
 The game will be designed to work on all screens, and should be responsive as the page is resized. 
 
-The site is designed to work on three different screen sizes, including Desktop, Tablet and Phone sizes.
+The site is designed to work on any device with a mouse pointer. During developement an issue was found with using touch screen devices, due to schedule constraints this was not resolved as the code would have to have be rewritten ideally in a more user freindly framework. The future plan is to take this project and extend it to more devices.
 
 
 ## Game Concept
 With inspiration drawn from the very succesful game Simon. Which is an electronic game of short-term memory skill invented by Ralph H. Baer and Howard J. Morrison, working for toy design firm Marvin Glass and Associates, with software programming by Lenny Cope. First brought to market in 1978, The device created a series of tones and lights and required a user to repeat the sequence. If the user succeeds, the series becomes progressively longer and more complex. Once the user fails or the time limit runs out, the game is over.
-
-
-The site is designed to work on three different screen sizes, including Desktop, Tablet and Phone sizes.
 
 A note about copyright: This game is intended as a parody of Simon, which is © Hasbro, and is in no way designed to infringe on the copyright of Simon. This game is not made for the purposes of making money, and all rights to the game Simon and to the mechanics that are represented under the copyright remain the property of the copyright owner.
 
@@ -31,7 +28,7 @@ As a player:
 + Replayability options and value
 
 ## Features and Wireframe
-This site comprises one page, with a centred game screen. The game itself ...
+This site comprises one page, with a centred game screen. A simple approach is usually best, I opted for a dark background and for the interactive elements to be bright and noticeable.
 
 ### Title Page
 ![Title Game State](readme_docs/prototype/title.png "Title Game State")
