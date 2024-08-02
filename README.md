@@ -48,7 +48,7 @@ It was during this stage that I opted for a dark background, The wireframe shows
 
 ## Technology
 + This website was made in its entirety using Visual Code Studio
-+ Wireframe and prototyping images were made in Figma
++ Wireframe were made in Figma
 + Additional software used to create this website include Chrome for previewing, inspecting and bug testing
 + Code languages used in this project are as follows:
     + HTML for the structure of the webpage 
