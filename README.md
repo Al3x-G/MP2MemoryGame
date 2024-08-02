@@ -129,9 +129,9 @@ Below are a few example of these tests being done:
 + Alot of issues arose when trying to use touch screens on various mobile devices. Due to strict scheduling deadlines i opted for a mainly desktop with mouse pointer oriented game and then in the next iteration I would perfect the code for touch devices.
 
 ## Code validation
-### <a href="https://validator.w3.org/" target="_blank">W3C</a>
+I used <a href="https://validator.w3.org/" target="_blank">W3C</a> to validate my code.
 
-+ <a href=>Game page validation</a>
+![html_valid](assets/images/html_valid.png)
 
 ![W3C Validation]()
 
