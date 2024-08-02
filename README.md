@@ -1,4 +1,15 @@
-# Memory Game 
+# Memory Game by Alex Gordon
+
+## Content List
+- [A Javascript Game](#a-javascript-game)
+- [Game concept](#game-concept)
+- [User Story](#user-story)
+- [Features and Wireframe](#features-and-wireframe)
+- [Technology](#technology)
+- [Testing](#testing)
+- [Code Validation](#code-validation)
+- [Deployment and Local Development](#deployment-and-local-development)
+- [Credits](#credits)
 
 ## A JavaScript Game
 
@@ -55,13 +66,13 @@ I did this using the package manager to install.
 
 Below is the method used to do this:
 
-![jest1](assets/testing/jest/jest1.png)
+![jest1](assets/testings/jest/jest1.png)
 
 (Note that these are taken from a separate test environment, this was to make sure I could understand it before I added it to my project)
 
 I then ran the command 'npm test'
 
-![jest2](assets/testing/jest/jest2.png)
+![jest2](assets/testings/jest/jest2.png)
 
 As expected, There was no tests found as at this point no code had been written but I could now be sure the jest had been installed and was working correctly.
 
