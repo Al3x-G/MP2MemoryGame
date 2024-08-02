@@ -133,13 +133,16 @@ I used <a href="https://validator.w3.org/" target="_blank">W3C</a> to validate m
 
 ![html_valid](assets/images/html_valid.png)
 
-![W3C Validation]()
-
-![Jigsaw Validation]()
+![css_valid](assets/images/css_valid.png)
 
 ### Lighthouse Report:
 
-![Jigsaw Validation]() 
+![lighthouse1](assets/images/lighthouse1.png)
+![lighthouse2](assets/images/lighthouse2.png)
+![lighthouse3](assets/images/lighthouse3.png)
+![lighthouse4](assets/images/lighthouse4.png)
+![lighthouse5](assets/images/lighthouse5.png)
+![lighthouse6](assets/images/lighthouse6.png)
 
 ### <a href="https://jshint.com/" target="_blank">JSHint</a>
 
