@@ -101,14 +101,21 @@ Once the game was complete I used chrome developer tools to test that these rule
 
 + When the game is active: If the incorrect button is pressed then the alert box should show displaying a message such as "Try again!" and a new game starts.
 
-Below are a few example of these tests being done: 
+Below are a few example of these tests being done:
+
+![dev_test1](assets/testings/chrome_dev_test/dev_test1.png)
+
+![dev_test2](assets/testings/chrome_dev_test/dev_test2.png)
 
 ### Bugs discovered
 + Properly aligning the circle buttons was very important as this was the main interaction with the user. Ultimately I solved this with putting two circles on a row each instead of trying to align them in one section.
 
-+ Had to change the alignment fro smaller screens . . . upon doing this led to alignment issues but fixed with flex direction: coloum in the body CSS
++ I had to change the alignment for smaller screens. 
+ Upon doing this led to alignment issues, but fixed with flex direction: column in the body CSS.
 
-+ had to change the hover function as it didnt look right on touch screens . . . did this by disabling hover effect on touch devices using media querie in css
++ I had to change the hover function as it didnt look right on touch screens. I did this by disabling hover effect on touch devices using media querie in css.
+
++ Alot of issues arose when trying to use touch screens on various mobile devices. Due to strict scheduling deadlines i opted for a mainly desktop with mouse pointer oriented game and then in the next iteration I would perfect the code for touch devices.
 
 ## Code validation
 ### <a href="https://validator.w3.org/" target="_blank">W3C</a>
