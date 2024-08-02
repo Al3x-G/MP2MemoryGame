@@ -144,9 +144,13 @@ I used <a href="https://validator.w3.org/" target="_blank">W3C</a> to validate m
 ![lighthouse5](assets/images/lighthouse5.png)
 ![lighthouse6](assets/images/lighthouse6.png)
 
-### <a href="https://jshint.com/" target="_blank">JSHint</a>
+I used <a href="https://jshint.com/" target="_blank">JSHint</a> to validate both my javascript files, No serious issues were detected.
 
-![JSHint Validation]() 
+Below is my memory.test.js file
+![jshint_test1](assets/images/jshint_test1.png)
+
+Below is my memory.js file
+![jshint_test2](assets/images/jshint_test2.png) 
 
 ## Deployment and Local Development
 
@@ -193,9 +197,16 @@ The Visual Studio Code preview extension was used to preview the website. To ope
 
 ## Credits
 ### Text Content
-Text is written by the Al3x-G https://github.com/Al3x-G
+Text is written by the author https://github.com/Al3x-G
+
+### Images
+All images used were created by the author https://github.com/Al3x-G
 
 ### Code
 
 All code was written by Alex Gordon working alongside Code Institute for support and guidance.
+
+### Special mention
+
+credit is due to Stevecook23 for help in creating the README format.
 
