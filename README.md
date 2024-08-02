@@ -39,19 +39,59 @@ It was during this stage that I opted for a dark background, The wireframe shows
 + This website was made in its entirety using Visual Code Studio
 + Wireframe and prototyping images were made in Figma
 + Additional software used to create this website include Chrome for previewing, inspecting and bug testing
++ Code languages used in this project are as follows:
+    + HTML for the structure of the webpage 
+    + CSS for the styling 
+    + Javavscript for the interactivity 
+    + Jest for the testing environment.
 
 ## Testing
+
+### Test Case : Jest
+
+At the very start of this project, I implemented jest into my work environment to practice how to test code as I was writing it using a Test Driven Developement approach. 
+
+I did this using the package manager to install.
+
+Below is the method used to do this:
+
+![jest1](assets/testing/jest/jest1.png)
+
+(Note that these are taken from a separate test environment, this was to make sure I could understand it before I added it to my project)
+
+I then ran the command 'npm test'
+
+![jest2](assets/testing/jest/jest2.png)
+
+As expected, There was no tests found as at this point no code had been written but I could now be sure the jest had been installed and was working correctly.
+
 ### Test Case: TDD Developement
-+ !["Test Examples]()
+
+Test-driven development (TDD) is a way of writing code that involves writing an automated unit-level test case that fails, then writing just enough code to make the test pass, then refactoring both the test code and the production code, then repeating with another new test case.
+
+Below are some examples of an TDD developement approach in this project:
+
+This first example shows an error for the newGame function, the element with and ID of score should display 0 but instead shows 23. this was just dummy data I added, for this game to work, once someone starts a new game the score should reset to zero.
+![jest_test1](assets/testings/jest/jest_test1.png)
+
+The solution to passing this test is shown below on code line 9:
+![jest_test2](assets/testings/jest/jest_test2.png)
+
+Every function in this project has gone through this process and can be seen through the git commit stages of this project and on the comments in the code itself, memory.test.js and memory.js.
+
+
 
 ### Test Case: Developer tools
+
+below are a few rules I laid out as a basic framework to follow when planning the project. 
+
+Once the game was complete I used chrome developer tools to test that these rules were adhered to.
+
 + Click outside game space; should have no effect on game.
 
 + The game space should have 4 equal sized circles that the user can click and is obvious when clicked.
 
 + The game space should also have a new game button.
-
-+ When the game is active: hovering over any of the four circles at any time should make the circle grow slightly.
 
 + When the game is active: The highscore box should add up for every correct sequence.
 
@@ -61,7 +101,7 @@ It was during this stage that I opted for a dark background, The wireframe shows
 
 + When the game is active: If the incorrect button is pressed then the alert box should show displaying a message such as "Try again!" and a new game starts.
 
-+ When the game is active: 
+Below are a few example of these tests being done: 
 
 ### Bugs discovered
 + Properly aligning the circle buttons was very important as this was the main interaction with the user. Ultimately I solved this with putting two circles on a row each instead of trying to align them in one section.
